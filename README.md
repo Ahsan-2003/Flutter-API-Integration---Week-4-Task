@@ -1,17 +1,58 @@
-# week_4_internship_tasks
+# 🌐 Flutter API Integration - Week 4 Task
 
-A new Flutter project.
+A comprehensive Flutter application demonstrating **RESTful API integration** with proper error handling, loading indicators, and clean architecture.
 
-## Getting Started
+## 🎯 Learning Objectives
 
-This project is a starting point for a Flutter application.
+- ✅ Understand RESTful API integration
+- ✅ Fetch and parse JSON data in Flutter
+- ✅ Display data using ListView
+- ✅ Build user profile screens
+- ✅ Implement error handling
+- ✅ Show loading indicators
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Task 1: HTTP Requests & JSON Parsing
+- Send HTTP GET requests to JSONPlaceholder API
+- Parse JSON responses
+- Display posts in a ListView
+- Refresh functionality
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Task 2: User Profile Screen
+- Fetch user data from API
+- Display user details (name, email, phone)
+- Show profile pictures using cached network images
+- Detailed user information (address, company)
+
+### Task 3: Error Handling & Loading
+- Loading spinner while fetching data
+- Error messages for failed requests
+- Retry functionality
+- Proper state management
+
+## 📂 Project Structure
+
+lib/
+├── main.dart # App entry point
+├── models/
+│ ├── post.dart # Post data model
+│ └── user.dart # User data model
+├── services/
+│ └── api_service.dart # API service with all HTTP methods
+└── screens/
+├── home_screen.dart # Home screen with navigation
+├── posts_screen.dart # Posts list screen
+└── user_profile_screen.dart # User profile screen
+
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| **Flutter** | UI Framework |
+| **Dart** | Programming Language |
+| **http** | HTTP requests |
+| **cached_network_image** | Profile picture caching |
+| **JSONPlaceholder** | Free fake API |
+
